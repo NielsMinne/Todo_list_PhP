@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lato', sans-serif; ;
+}
+
+header{
+    background-color: #222;
+    height:  7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header i{
+    padding-left: 15px;
+}
+header a{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 7vh;
+    width: 15vw;
+    height: 93vh;
+    background-color: #222;
+    box-shadow: 1px 0 20px rgba(255, 255, 255, 0.3);
+    
+}
+
+main{
+    display: flex;
+
+}
+nav h3{
+    padding: 30px 0 15px 50px;
+}
+
+nav li{
+    padding: 15px 0 15px 50px;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav li:hover{
+    background-color: #535353;
+}
+
+a{
+    text-decoration: none;
+}
+section{
+    background-color: #111;
+    width: 85vw;
+   
+}
+
+section h2{
+    padding: 30px 0 30px 5.5vw;
+    color: #e3e666;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    height: 5vh;
+    background-color: #444444;
+    padding: 20px 30px 20px 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+form{
+    padding-top: 50px;
+}
+input{
+    width: 70vw;
+    border-radius: 10px 0 0 10px;
+    height: 5vh;
+    border: none;
+    padding-left: 10px;
+    background-color: #c4c4c4;
+    color: black;
+    
+}
+
+::placeholder{
+    color: #131313;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-div button, .todo-div a,.completed-div a{
+    background-color: #24C83B;
+    height: 5vh;
+    border-radius: 0 10px 10px 0;
+    width:3vw;
+    margin-right: 0;
+    border: none;
+}
+
+.todo-div a,.completed-div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-div, .completed-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px 10px 40px ;
+    margin: 0 auto;
+}
+
+.todo-div a{
+    background-color: #D4C71B;
+}
+
+.completed-div a{
+    background-color: #C82347;
+}
+
+.todo-div p, .completed-div p{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 70vw;
+    background-color: #414141;
+    padding-left: 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+hr{
+    margin: 0 40px;
+}
